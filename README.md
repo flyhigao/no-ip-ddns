@@ -1,6 +1,10 @@
 
 由于最近发现我用的openwrt没有带no-ip.com的v6ddns更新,就写了一个脚本(无需参数),进行更新.
 
+可以放到crontab中运行:
+
+*/15 * * * * /bin/sh /opt/noipddns.sh
+
 运行环境是个ubuntu lxd虚拟机
 
 具体实现功能:
