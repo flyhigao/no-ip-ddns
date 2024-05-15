@@ -1,6 +1,5 @@
-# no-ip-ddns
-shell update no-ip  v4 and v6
-由于最近发现openwrt没有no-ip.com的v6ddns更新,就写了一个脚本(无需参数),进行更新.
+
+由于最近发现我用的openwrt没有带no-ip.com的v6ddns更新,就写了一个脚本(无需参数),进行更新.
 
 运行环境是个ubuntu lxd虚拟机
 
